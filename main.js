@@ -53,7 +53,7 @@ function draw()
   rect(desiredXSlider.value(), constraints[1] + circleSize / 2 + boxSize[1] / 2, boxSize[0], boxSize[1], 8)
 
   stroke('black')
-  var desiredY = Intercepts(p1, p2, desiredXSlider.value())
+  var desiredY = Intersects(p1, p2, desiredXSlider.value())
   desiredY = constrain(desiredY, constraints[0], constraints[1]);
 
   let desiredPoint = createVector(desiredXSlider.value(), desiredY)
@@ -100,7 +100,7 @@ function drawArrow(base, vec, myColor)
   pop()
 }
 
-function Intercepts(P1, P2, desiredX)
+function Intersects(P1, P2, desiredX)
 {
   let alpha;
   if (P1.x == P2.x)
