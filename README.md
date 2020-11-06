@@ -1,3 +1,6 @@
+
+[![HitCount](http://hits.dwyl.com/hugoassisj/intersects.svg)](http://hits.dwyl.com/hugoassisj/intersects)
+
 # Intersects
 
 ### Environment
